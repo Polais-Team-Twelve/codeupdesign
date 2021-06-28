@@ -7,6 +7,7 @@ body{
     font-family: 'Abel', sans-serif;
 }
 
+/* titles */
 .visual{
     font-size: 64px;
     font-family: 'Anton', sans-serif;
@@ -16,8 +17,62 @@ body{
     font-size: 48px;
     font-family: 'Anton', sans-serif;
 }
+
+/* circles */
 .circles{
     font-family: 'Anton', sans-serif;
     color: white;
 }
-/* titles */
+
+.breaker{
+    /* makes circles in line instead of square*/
+    display: none;
+}
+
+.red-circle{
+    height: 90px;
+    width: 90px;
+    background: #E6563B;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white solid 5px;
+}
+
+.yellow-circle {
+    height: 90px;
+    width: 90px;
+    background: #DEA03D;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white solid 5px;
+}
+
+.green-circle{
+    height: 90px;
+    width: 90px;
+    background: #7CB06C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white solid 5px;
+}
+
+.blue-circle{
+    height: 90px;
+    width: 90px;
+    background: #00ABA9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white solid 5px;
+}
+
+
+
+
