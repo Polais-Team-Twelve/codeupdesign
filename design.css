@@ -72,6 +72,9 @@ body{
     justify-content: center;
     border: white solid 5px;
 }
+.selected-work{
+    font-family: 'Abel', sans-serif;
+}
 
 
 
