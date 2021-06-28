@@ -72,10 +72,24 @@ body{
     justify-content: center;
     border: white solid 5px;
 }
+
+
 .selected-work{
     font-family: 'Abel', sans-serif;
 }
 
 
+.last-articles{
+    font-size: 15px;
+    font-family: 'Anton', sans-serif;
+}
+
+.twitter{
+    font-family: 'Abel', sans-serif;
+}
+
+.twitter-details{
+    font-family: 'Abel', sans-serif;
+}
 
 
