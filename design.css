@@ -1,79 +1,9 @@
-/* Media Queries & Breakpoints */
-
-/* XS */
-@media screen (min-width:320px) and (max-width:576px){
-    .last-articles{
-        display: none;
-    }
-    .visual{
-        font-size: 32px;
-        font-family: 'Anton', sans-serif;
-
-    }
-    .city{
-        font-size: 28px;
-        font-family: 'Anton', sans-serif;
-    }
-}
-
-
-/* S */
-@media screen and (min-width:576px) and (max-width:768px){
-    .breaker{
-        display: none;
-    }
-    .last-articles{
-        display: none;
-    }
-    .visual{
-        font-size: 40px;
-        font-family: 'Anton', sans-serif;
-
-    }
-    .city{
-        font-size: 32px;
-        font-family: 'Anton', sans-serif;
-    }
-}
-
-/* M */
-@media screen and (min-width:768px) and (max-width:992px){
-    .breaker{
-        display: none;
-    }
-
-    .visual{
-        font-size: 48px;
-        font-family: 'Anton', sans-serif;
-
-    }
-    .city{
-        font-size: 40px;
-        font-family: 'Anton', sans-serif;
-    }
-}
-
-
-/* L & XL */
-@media screen and (min-width:992px){
-    .breaker{
-        display: none;
-    }
-
-    .visual{
-        font-size: 64px;
-        font-family: 'Anton', sans-serif;
-
-    }
-    .city{
-        font-size: 48px;
-        font-family: 'Anton', sans-serif;
-    }
-}
-
-
 body{
     background-color: #E6E6E6
+}
+
+.breaker{
+    display: none;
 }
 
 /* navbar */
@@ -81,7 +11,6 @@ body{
     font-family: 'Abel', sans-serif;
 }
 
-/* titles
 .visual{
     font-size: 64px;
     font-family: 'Anton', sans-serif;
@@ -91,7 +20,7 @@ body{
     font-size: 48px;
     font-family: 'Anton', sans-serif;
 }
-*/
+
 
 /* circles */
 .circles{
@@ -156,50 +85,6 @@ body{
     font-size: 15px;
 }
 
-.mini-red{
-    height: 18px;
-    width: 18px;
-    background: #E6563B;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Anton', sans-serif;
-
-}
-
-.mini-yellow{
-    height: 18px;
-    width: 18px;
-    background: #DEA03D;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Anton', sans-serif;
-}
-
-.mini-green{
-    height: 18px;
-    width: 18px;
-    background: #7CB06C;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Anton', sans-serif;
-}
-
-.mini-blue{
-    height: 18px;
-    width: 18px;
-    background: #00ABA9;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Anton', sans-serif;
-}
 
 /* the last */
 .last-articles{
