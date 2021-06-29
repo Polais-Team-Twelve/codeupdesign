@@ -2,9 +2,6 @@ body{
     background-color: #E6E6E6
 }
 
-.breaker{
-    display: none;
-}
 
 /* navbar */
 .navigation-header{
@@ -155,5 +152,38 @@ body{
     font-family: 'Anton', sans-serif;
     padding-right: 10px;
     padding-left: 10px;
+}
+/* XS  */
+@media screen and (max-width:576px) {
+    .hidden-articles{
+        display: none;
+    }
+    .hidden-img{
+        display: none;
+    }
+}
+
+/* Small */
+@media screen and (min-width:576px) and (max-width:768px) {
+    .breaker{
+    display: none;
+    }
+    .hidden-articles{
+        display: none;
+    }
+}
+
+/* medium  */
+@media screen and (min-width:768px) {
+    .breaker{
+        display: none;
+    }
+}
+
+/* XL  */
+@media screen and (min-width:992px) {
+    .breaker{
+        display: none;
+    }
 }
 
