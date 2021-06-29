@@ -8,18 +8,11 @@ body{
     font-family: 'Abel', sans-serif;
 }
 
-.visual{
-    font-size: 64px;
-    font-family: 'Anton', sans-serif;
-
-}
-.city{
-    font-size: 48px;
-    font-family: 'Anton', sans-serif;
-}
-
 
 /* circles */
+.testing{
+}
+
 .circles{
     font-family: 'Anton', sans-serif;
     color: white;
@@ -98,10 +91,6 @@ body{
 }
 
 
-.circles{
-    margin: 20px;
-}
-
 .mini-red{
     height: 18px;
     width: 18px;
@@ -161,15 +150,33 @@ body{
     .hidden-img{
         display: none;
     }
+    .visual{
+        font-size: 32px;
+        font-family: 'Anton', sans-serif;
+
+    }
+    .city{
+        font-size: 28px;
+        font-family: 'Anton', sans-serif;
+    }
 }
 
 /* Small */
 @media screen and (min-width:576px) and (max-width:768px) {
     .breaker{
-    display: none;
+        display: none;
     }
     .hidden-articles{
         display: none;
+    }
+    .visual{
+        font-size: 40px;
+        font-family: 'Anton', sans-serif;
+
+    }
+    .city{
+        font-size: 32px;
+        font-family: 'Anton', sans-serif;
     }
 }
 
@@ -178,12 +185,30 @@ body{
     .breaker{
         display: none;
     }
+    .visual{
+        font-size: 48px;
+        font-family: 'Anton', sans-serif;
+
+    }
+    .city{
+        font-size: 40px;
+        font-family: 'Anton', sans-serif;
+    }
 }
 
-/* XL  */
+/* XL & L */
 @media screen and (min-width:992px) {
     .breaker{
         display: none;
+    }
+    .visual{
+        font-size: 64px;
+        font-family: 'Anton', sans-serif;
+
+    }
+    .city{
+        font-size: 48px;
+        font-family: 'Anton', sans-serif;
     }
 }
 
