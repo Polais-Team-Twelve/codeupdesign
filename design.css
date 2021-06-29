@@ -105,3 +105,55 @@ body{
     margin: 20px;
 }
 
+.mini-red{
+    height: 18px;
+    width: 18px;
+    background: #E6563B;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.mini-yellow{
+    height: 18px;
+    width: 18px;
+    background: #DEA03D;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.mini-green{
+    height: 18px;
+    width: 18px;
+    background: #7CB06C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.mini-blue{
+    height: 18px;
+    width: 18px;
+    background: #00ABA9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
