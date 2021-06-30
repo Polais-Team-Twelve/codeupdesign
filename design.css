@@ -1,13 +1,26 @@
 body{
-    background-color: #E6E6E6
+    background-color: #E6E6E6;
 }
 
+
+.tester-thing{
+    background-color: white;
+    height: 80px;
+}
 
 /* navbar */
 .navigation-header{
     font-family: 'Abel', sans-serif;
 }
 
+.flex-tester{
+    display: flex;
+    justify-content: center;
+}
+
+.code-hide{
+    font-size: 35px;
+}
 
 /* circles */
 .testing{
@@ -146,6 +159,7 @@ body{
 
 .twitter{
     font-family: 'Abel', sans-serif;
+    margin-top: 50px;
 }
 
 .twitter-details{
