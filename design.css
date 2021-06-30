@@ -9,10 +9,6 @@ body{
 }
 
 
-.border-img{
-    border: lightgray solid 5px;
-}
-
 /* circles */
 .testing{
     margin-top: 5px;
@@ -74,29 +70,21 @@ body{
 /* selected-work*/
 .selected-work{
     font-family: 'Abel', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
-
+}
 
 .selected-text{
     font-family: 'Abel', sans-serif;
     font-size: 15px;
 }
 
-
-/* the last */
-.last-articles{
-    font-size: 15px;
-    font-family: 'Anton', sans-serif;
+.border-img{
+    border: lightgray solid 5px;
 }
 
-.twitter{
-    font-family: 'Abel', sans-serif;
-}
-
-.twitter-details{
-    font-family: 'Abel', sans-serif;
-}
-
+/* mini circles */
 
 .mini-red{
     height: 18px;
@@ -150,9 +138,18 @@ body{
     padding-left: 10px;
 }
 
-.selected-work{
-    margin-top: 40px;
-    margin-bottom: 20px;
+/* the last */
+.last-articles{
+    font-size: 15px;
+    font-family: 'Anton', sans-serif;
+}
+
+.twitter{
+    font-family: 'Abel', sans-serif;
+}
+
+.twitter-details{
+    font-family: 'Abel', sans-serif;
 }
 
 .no-margin{
