@@ -180,6 +180,9 @@ body{
     .logo-hidden{
         display: none;
     }
+    .code-hide{
+        display: none;
+    }
 }
 
 /* Small */
@@ -200,6 +203,9 @@ body{
         font-family: 'Anton', sans-serif;
     }
     .logo-hidden{
+        display: none;
+    }
+    .code-hide{
         display: none;
     }
 }
